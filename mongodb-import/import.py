@@ -32,9 +32,21 @@ for myproduct in myproducts_data:
         if myreview['product'] == myproduct['_id']:
             ratings.append(myreview['rating'])
 
-    myproduct['avgRatings'] = Average(ratings)
-    myproduct['numReviews'] = len(ratings)
+    i = myproducts_data.index(myproduct);
 
+    myproducts_data[i] = {
+        '_id': myproduct['_id'],
+        'name': myproduct['name'],
+        'price': myproduct['price'],
+        'priceCompare': myproduct['priceCompare'],
+        'avgRatings': Average(ratings),
+        'numReviews': len(ratings),
+        'imgs': myproduct['imgs'],
+        'description': myproduct['description']
+    }
+    
 x = myproducts.insert_many(myproducts_data)
 y = myreviews.insert_many(myreviews_data)
 z = myusers.insert_many(myusers_data)
+
+print('Successfully imported!');
