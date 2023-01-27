@@ -2,6 +2,7 @@ import os
 import pymongo
 import json
 import bson
+import datetime
 
 from dotenv import load_dotenv
 load_dotenv('mongodb-import/.env')
@@ -34,7 +35,7 @@ for myproduct in myproducts_data:
             ratings.append(myreview['rating'])
 
     i = myproducts_data.index(myproduct);
-
+    
     myproducts_data[i] = {
         '_id': bson.ObjectId(myproduct['_id']),
         'name': myproduct['name'],
@@ -43,7 +44,8 @@ for myproduct in myproducts_data:
         'avgRatings': Average(ratings),
         'numReviews': len(ratings),
         'imgs': myproduct['imgs'],
-        'description': myproduct['description']
+        'description': myproduct['description'],
+        'createdAt': datetime.datetime.now()
     }
     
 x = myproducts.insert_many(myproducts_data)
