@@ -1,6 +1,7 @@
 import os
 import pymongo
 import json
+import bson
 
 from dotenv import load_dotenv
 load_dotenv('mongodb-import/.env')
@@ -35,7 +36,7 @@ for myproduct in myproducts_data:
     i = myproducts_data.index(myproduct);
 
     myproducts_data[i] = {
-        '_id': myproduct['_id'],
+        '_id': bson.ObjectId(myproduct['_id']),
         'name': myproduct['name'],
         'price': myproduct['price'],
         'priceCompare': myproduct['priceCompare'],
