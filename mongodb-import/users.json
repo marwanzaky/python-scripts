@@ -1,0 +1,98 @@
+[
+    {
+        "_id": "6349cb484f1edc51dba454a1",
+        "name": "Marwan Zaky",
+        "email": "contact@marwanzaky.com",
+        "role": "admin",
+        "password": "$2b$12$O6mEyS4ZKfIEXod0GiHP5ukguB40A6MOjrCeYKRlz3paxz7z9ACji",
+        "active": true
+    },
+    {
+        "_id": "6349cb974f1edc51dba454a6",
+        "name": "John Smith",
+        "email": "johnsmith@gmail.com",
+        "role": "user",
+        "password": "$2b$12$xTYAF8j74lfrwZ02BYTR5OxM5eXlKgCQT5nVknqd8mXuBqcMahqU2",
+        "active": true
+    },
+    {
+        "_id": "6349e34e2f11ebd57624265f",
+        "name": "Marwan Zaky",
+        "email": "marouaneezzaky@gmail.com",
+        "role": "user",
+        "password": "$2b$12$bWAyM4BnBITF/XaNkJRt6.dzQ1jEuuA4wXwIAAv2I5Xx5Y7ADIxS.",
+        "active": true
+    },
+    {
+        "_id": "6349f99fccb6d9f496a794ec",
+        "name": "Lane",
+        "email": "lane@gmail.com",
+        "role": "user",
+        "password": "$2b$12$LtYDS/DcLS/rJeLggT/B3OE6Q4Au7UQ2Rim7/w/kbE7LouoduZa3W",
+        "active": true
+    },
+    {
+        "_id": "6349f9aaccb6d9f496a794ee",
+        "name": "cathieblanton1",
+        "email": "cathieblanton1@gmail.com",
+        "role": "user",
+        "password": "$2b$12$Pqe573K/a00cUBgHLsMCDuvqjtVmhFz/I5AiveqnJ8Y898Ta1f/xW",
+        "active": true
+    },
+    {
+        "_id": "6349f9d3ccb6d9f496a794f0",
+        "name": "Gobinda Richmal",
+        "email": "gobindarichmal@gmail.com",
+        "role": "user",
+        "password": "$2b$12$hB4/Svb4IY2tMyQVLSS7JevYMkxDa8qS5LVY1bmL0W.YIjmjQKak6",
+        "active": true
+    },
+    {
+        "_id": "6349f9e3ccb6d9f496a794f2",
+        "name": "Pryderi Petrina",
+        "email": "pryderipetrina@gmail.com",
+        "role": "user",
+        "password": "$2b$12$0Q2ciFASN8MGXyOp2zvGa.Rm9hZEGVwNzUhCUm3v5P8jxeX/jdYtS",
+        "active": true
+    },
+    {
+        "_id": "6349f9f3ccb6d9f496a794f4",
+        "name": "Soili Khufu",
+        "email": "soilikhufu@gmail.com",
+        "role": "user",
+        "password": "$2b$12$JynpTQaqljRnqcCbOaW.H.Jm/2YZF/Jod38MnHIMfaFmHgXOuq/Uy",
+        "active": true
+    },
+    {
+        "_id": "6349fa0eccb6d9f496a794f6",
+        "name": "Ngawang Khwaja",
+        "email": "ngawangkhwaja@gmail.com",
+        "role": "user",
+        "password": "$2b$12$bfTgLJNx9JIZDRKsPOvR0.Qo34trcNQEAHwPeZB1kwo6WgLG54LmG",
+        "active": true
+    },
+    {
+        "_id": "6349fa24ccb6d9f496a794f8",
+        "name": "Samantha Fowler",
+        "email": "samanthafowler@gmail.com",
+        "role": "user",
+        "password": "$2b$12$yiJdWi63tg.2Bi.YqxcriOU0p2BC86LIqABXcyQstQ1GwHa1jAdDC",
+        "active": true
+    },
+    {
+        "_id": "6349fa2bccb6d9f496a794fa",
+        "name": "mariacandela",
+        "email": "mariacandela@gmail.com",
+        "role": "user",
+        "password": "$2b$12$E84IMM..Sn15dziNP/4Ud.xOT5NvK1L8f6Q0N4QrloYttxmwGotvW",
+        "active": true
+    },
+    {
+        "_id": "6349fa35ccb6d9f496a794fc",
+        "name": "auren joyner",
+        "email": "aurenjoyner@gmail.com",
+        "role": "user",
+        "password": "$2b$12$PK0jhyh5v8QkH3gEAMQXK.O5iXrWpveqpKec9.pC4wffSdV8wHUzy",
+        "active": true
+    }
+]
