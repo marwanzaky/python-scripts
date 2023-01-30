@@ -34,8 +34,8 @@ for myproduct in myproducts_data:
         if myreview['product'] == myproduct['_id']:
             ratings.append(myreview['rating'])
 
-    i = myproducts_data.index(myproduct);
-    
+    i = myproducts_data.index(myproduct)
+
     myproducts_data[i] = {
         '_id': bson.ObjectId(myproduct['_id']),
         'name': myproduct['name'],
@@ -47,9 +47,21 @@ for myproduct in myproducts_data:
         'description': myproduct['description'],
         'createdAt': datetime.datetime.now()
     }
-    
+
+for myreview in myreviews_data:
+    i = myreviews_data.index(myreview)
+
+    myreviews_data[i]['_id'] = bson.ObjectId(myreview['_id'])
+    myreviews_data[i]['product'] = bson.ObjectId(myreview['product'])
+    myreviews_data[i]['user'] = bson.ObjectId(myreview['user'])
+
+for myuser in myusers_data:
+    i = myusers_data.index(myuser)
+
+    myusers_data[i]['_id'] = bson.ObjectId(myuser['_id'])
+
 x = myproducts.insert_many(myproducts_data)
 y = myreviews.insert_many(myreviews_data)
 z = myusers.insert_many(myusers_data)
 
-print('Successfully imported!');
+print('Successfully imported!')
